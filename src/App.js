@@ -77,13 +77,13 @@ function App() {
       //eslint-disable-next-line
       dadosAuxiliar.map(Clientes=>{
         if(Clientes.id===ClientesSelecionado.id){
-          Clientes.nome=Clientes.nome;
-          Clientes.idade=Clientes.idade;
-          Clientes.endereco=Clientes.endereco;
-          Clientes.cpf=Clientes.cpf;
-          Clientes.telefone=Clientes.telefone;
-          Clientes.sexo=Clientes.sexo;
-          Clientes.rg=Clientes.rg;
+          Clientes.nome=resposta.nome;
+          Clientes.idade=resposta.idade;
+          Clientes.endereco=resposta.endereco;
+          Clientes.cpf=resposta.cpf;
+          Clientes.telefone=resposta.telefone;
+          Clientes.sexo=resposta.sexo;
+          Clientes.rg=resposta.rg;
         }
       });
       abrirFecharModalEditar();
